@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title> Dark Chill</title>
+  </head>
+  <body>
+
+    <h1>Dark Chill</h1>
+    <p class = 'srcimg'> <a href = 'https://wallpaperaccess.com/dark-hacker' target = _blank> Image Source </a> </p>
+  
+
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <audio src="music/Sparks.wav" id="audio"></audio>
+
+      <div class="img-container">
+      <img src = 'Logo.png' id = 'cover'>
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+      <a href = https://www.youtube.com/channel/UCY1Zy2bfiGlouxgdwsly2gw target = _blank><img class = 'fb' src = 'images/ytico.png' width = 35px></a>
+      <a href = 'https://www.facebook.com/Dark-Chill-104068881923539' target = _blank><img class = 'fb' src = 'images/fbico.png' width = 35px></a>
+    </footer>
+
+  </body>
+</html>
