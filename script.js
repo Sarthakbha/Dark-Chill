@@ -15,7 +15,7 @@ const durTime = document.querySelector('#durTime');
 const songs = ['Lost For Words','Dreamer','Lost In Colors','What Lies Ahead','Fading Hopes','I Come Home', 'Shooting Stars', 'Labyrinth', 'Dreams', 'Nostalgia', 'Sparks', 'Midnight Sun'];
 
 // Keep track of song
-let songIndex = 0;
+let songIndex = song.length;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
